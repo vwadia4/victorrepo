@@ -12,20 +12,20 @@ console.log(typeof"age");
 console.log(typeof"lastName");
 
 //Declare four variables without assigning values
-let age;
+let age1;
 let name;
 let price;
 let cost;
 
 //Declare four variables with assigned values
-let age = 25;
-let Namesame = "Alex";
+let age2 = 25;
+let firstName1 = "Alex";
 let Price = 1000;
 let Cost = 700;
 
 //Declare variables to store your first name, last name, marital status, country and age in multiple lines
 
-let customerInfo = firstName = 'victor', lastName= 'Wadia', maritalStatus = 'single', country = "Uganda", age1 = 40
+let customerInfo = firstName = 'victor', lastName1= 'Wadia', maritalStatus = 'single', country = "Uganda", age3 = 40
 
 
 //Declare variables to store your first name, last name, marital status, country and age in a single line
@@ -34,7 +34,7 @@ let customerInformation =
     lastName: 'Wadia',
     maritalStatus: 'Single',
     country: 'Uganda',
-    Age: 40}
+    Age3: 40}
 
     /*Declare two variables myAge and yourAge and assign them initial values and log to the  console.
 I am 25 years old.
