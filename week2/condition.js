@@ -2,11 +2,11 @@
 //if
 //if else
 //if else if else
-//switch foe menus
+//switch for menus
 //ternary operator
 
-// if (condition){
-//     // this code runs if the condition is truthy
+//if (condition){
+// this code runs if the condition is truthy
 // }
 
 // if (condition){
@@ -39,16 +39,16 @@
 
 
 // //If condition example
-// let number = 3;
-// if(number>0){
-//     console.log(number + " " + "is a positive number")
-// }
+let number = 3;
+if (number > 0) {
+    console.log(number + " " + "is a positive number")
+}
 
 // let isRaining = true;
 // if(isRaining){
 //     console.log(isRaining + " " + "remember to take your umbrella")
 
-// } 
+// }
 
 // let age 20>=<=30;
 // if(age>=20 && age<=30){
@@ -65,11 +65,11 @@
 // if (number >0) {
 //     alert(`${number} is positive`);
 //     console.log (`${number} is positive.`);
-// } 
+// }
 // else if(number){
 //     alert(`${number} is positive`);
 //     console.log (`${number} is negative.`);
-// } 
+// }
 // else{
 //     alert(`the number is zero`);
 
@@ -79,33 +79,69 @@
 // let quantity = prompt(`enter quantity:`);
 // if (quantity>=100 && quantity<=500){
 //     alert(`requested accepted`)
-// } 
+// }
 // else{
 //     alert(`invalid quantity`)
 // }
 
- //SWITCH FOR NUMBER
- let number = prompt(`enter number:`);    //switch is used for calenders, dropdowns, menu's
- switch (true) {
-    case number >0:
+//SWITCH FOR NUMBER
+/*let number = prompt(`enter number:`);    //switch is used for calenders, dropdowns, menu's
+switch (true) {
+    case number > 0:
         alert(`${number} is positive`);
-     console.log (`${number} is positive.`);     
+        console.log(`${number} is positive.`);
         break;
 
-    case number ==0:
-    alert(`${number} is zero`);
-     console.log (`${number} is zero.`);
-        
+    case number == 0:
+        alert(`${number} is zero`);
+        console.log(`${number} is zero.`);
+
         break;
-    case number <0:
-    alert(`${number} is negative`);
-     console.log (`${number} is negative.`);
+    case number < 0:
+        alert(`${number} is negative`);
+        console.log(`${number} is negative.`);
         break;
-    
+
     default:
-    alert(`${number} is invalid`);
-//     console.log (`${number} is invalid.`);
-        
- }
+        alert(`${number} is invalid`);
+    //     console.log (`${number} is invalid.`);
 
-        
+}
+
+*/
+/*
+//SWITCH FOR DAYS OF THE WEEK
+
+let numberdayImput = prompt(`what day is it today:`);
+let day = dayImput.toLocalLowerCase();
+switch (true) {
+    case `Monday`:
+        alert(`$today is monday`);
+        break;
+
+    case `Tuesday`:
+        alert(`$today is Tuesday`);
+
+        break;
+    case `Wednesday`:
+        alert(`$today is Wednesday`);
+        break;
+    case `Thursday`:
+        alert(`today is Thursday`);
+        break;
+    case `Friday`:
+        alert(`today is Friday`);
+        break;
+    case `Saturday`:
+        alert(`today is Saturday`);
+        break;
+    case `Sunday`:
+        alert(`today Sunday`);
+        break;
+
+    default:
+        alert(`Office is closed`);
+
+}
+
+//SWITCH FOR FOOD

@@ -1,0 +1,26 @@
+[
+    {
+    "name ": "Alex",
+    "age": 25,
+    "type": "layer",
+    "quantity": 100
+    },
+    {
+    "name": "Mike",
+    "age": 27,
+    "type": "Broiler",
+    "quantity": 49
+    },
+    {
+    "name": "Alan",
+    "age": 29,
+    "type": "Broiler",
+    "quantity": 54,
+    },
+    {
+    "name": "Nelson",
+    "age": 21,
+    "type": "layer",
+    "quantity": 200,
+    }
+]
