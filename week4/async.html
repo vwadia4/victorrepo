@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Fetch Example</title>
+</head>
+
+<body>
+
+    <h2>Blog Post</h2>
+    <button onclick="loadPost()">Load Post</button>
+
+    <div id="post">
+        <!-- Fetched data will appear here -->
+    </div>
+
+    <script src="/week4/async.js">
+        
+"https://picsum.photos/400";
+
+      // Create an img element and show it
+      const img = document.createElement("img");
+      img.src = imageUrl;
+      img.alt = "Random image";
+      img.style.maxWidth = "100%";
+      img.style.border = "2px solid #ccc";
+      
+      const container = document.getElementById("imageContainer");
+      container.innerHTML = "";  // Clear previous image
+      container.appendChild(img);
+    
+    </script>
+
+</body>
+
+</html>
